@@ -22,7 +22,7 @@ if bit == '32bit':
 
 if __name__ == "__main__":
 
-	try:		__import__("broke").menu()
+	try:		__import__("broke").Main().menu()
 
 	except Exception as e:
 
